@@ -6,7 +6,7 @@ def initialize
 	end
 	
 def salad?(dressing)
- dressing=="Ranch" || dressing=="Caesar" && color=="green"
+ dressing=="Ranch" || (dressing=="Caesar" && color=="green")
 	true
 	else 
 	false
